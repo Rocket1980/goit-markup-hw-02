@@ -5,7 +5,14 @@ a {
   text-decoration: none;
   color: #212121;
 }
-
+p {
+  color: #757575;
+}
+h1,
+h2,
+h3 {
+  color: #212121;
+}
 .logo {
   font-family: raleway;
   font-size: 26px;
@@ -30,5 +37,9 @@ span {
 }
 .contacts-nav:hover,
 .contacts-nav:focus {
+  color: #2196f3;
+}
+.connection:hover,
+.connection:focus {
   color: #2196f3;
 }
