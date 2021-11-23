@@ -1,12 +1,34 @@
-.top-line{
-    color: brown;
-    background-color: chartreuse;
+body {
+  background-color: #e5e5e5;
+}
+a {
+  text-decoration: none;
+  color: #212121;
 }
 
+.logo {
+  font-family: raleway;
+  font-size: 26px;
+}
+span {
+  color: #2196f3;
+}
 
+.meny-nav {
+  color: #212121;
+  font-size: 14px;
+  list-style: none;
+}
 
-.logo{
-    Font family: Raleway
-Font style: Bold
-Font size: 26px
+.studio-nav:hover,
+.studio-nav:focus {
+  color: #2196f3;
+}
+.portfolio-nav:hover,
+.portfolio-nav:focus {
+  color: #2196f3;
+}
+.contacts-nav:hover,
+.contacts-nav:focus {
+  color: #2196f3;
 }
