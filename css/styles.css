@@ -39,7 +39,9 @@ span {
 .contacts-nav:focus {
   color: #2196f3;
 }
-.connection:hover,
-.connection:focus {
+.connection .mailto {
   color: #2196f3;
+}
+.connection .tel {
+  color: #757575;
 }
