@@ -91,6 +91,18 @@ span {
   color: #ffffff;
 }
 
+.cap-button {
+  background-color: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
 .peculiarity-heading {
   font-weight: bold;
   font-size: 14px;
