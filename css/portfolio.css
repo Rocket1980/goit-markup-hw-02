@@ -1,0 +1,89 @@
+:root {
+  --theme-color: #2196f3;
+  --text-primary: #212121;
+  --text-secondary: #757575;
+
+  --primary-font: 'Raleway';
+  --secondary-font: 'Roboto';
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: var(--secondary-font);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* ===== header ===== */
+
+.header-logo {
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
+}
+span {
+  color: #2196f3;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--theme-color);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+}
+.header-connection-mailto {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary);
+}
+.header-connection-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary);
+}
+.header-connection-mailto:hover,
+.header-connection-mailto:focus {
+  color: var(--theme-color);
+}
+.header-connection-tel:hover,
+.header-connection-tel:focus {
+  color: var(--theme-color);
+}
+/* ===== main ===== */
+
+.button-link {
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+}
+.button-link:hover,
+.button-link:focus {
+  background-color: var(--theme-color);
+  color: #ffffff;
+}

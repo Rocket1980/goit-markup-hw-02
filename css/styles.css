@@ -51,16 +51,13 @@ span {
   letter-spacing: 0.02em;
   color: var(--text-primary);
 }
-.active-page {
-  color: var(--theme-color);
-}
 
 .connection-mailto {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--theme-color);
+  color: var(--text-secondary);
 }
 
 .connection-tel {
@@ -68,7 +65,17 @@ span {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-secondary);
+}
+
+.connection-mailto:hover,
+.connection-mailto:focus {
+  color: var(--theme-color);
+}
+
+.connection-tel:hover,
+.connection-tel:focus {
+  color: var(--theme-color);
 }
 
 /* ===== main ===== */
@@ -85,7 +92,7 @@ span {
 
 .cap-button {
   background-color: #2196f3;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   display: flex;
@@ -96,7 +103,7 @@ span {
 }
 
 .peculiarity-heading {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -104,6 +111,7 @@ span {
   color: var(--text-primary);
 }
 .peculiarity-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -120,17 +128,22 @@ span {
   letter-spacing: 0.03em;
   color: var(--text-primary);
 }
+.classes-image {
+  width: 370px;
+}
 
 /* ===== team ===== */
 
 .team-box-heading {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-primary);
+}
+.team-image {
+  width: 270px;
 }
 .team-heading {
   font-weight: 500;
@@ -157,29 +170,28 @@ span {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #ffffff;
 }
+
 .footer-address {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: #FFFFFF; */
-  color: #000;
+  color: #ffffff;
 }
+
 .footer-mailto {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
-  color: #000;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
-  color: #000;
+  color: rgba(255, 255, 255, 0.6);
 }

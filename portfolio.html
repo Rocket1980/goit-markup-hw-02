@@ -5,37 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 <body>
     <!-- Верхняя линия -->
-    <header>
-        <div>
-            <nav>
-                <a href="WebStudio"><span>Web</span>Studio</a>
-                <ul>
-                    <li><a href="Студия">Студия</a></li>
-                    <li><a href="./portfolio.html">Портфолио</a></li>
-                    <li><a href="Контакты">Контакты</a></li>
+    <header class="header">
+        <div class="header-box">
+            <nav class="header-nav">
+                <a class="header-logo" href="WebStudio"><span>Web</span>Studio</a>
+                <ul class="header-nav-link">
+                    <li><a class="nav-link" href="Студия">Студия</a></li>
+                    <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+                    <li><a class="nav-link" href="Контакты">Контакты</a></li>
                 </ul>
             </nav>
-            <div>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
+            <div class="header-connection">
+                <a class="header-connection-mailto" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="header-connection-tel" href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
             </div>
         </div>
     </header>
        
     <!-- Портфолио -->
-    <main>
+    <main class="main">
             <!-- Фильтр -->
-        <div>
-            <button type="button">Все</button>
-            <ul>
-                <li><a href="Веб-сайт">Веб-сайт</a></li>
-                <li><a href="Приложения">Приложения</a></li>
-                <li><a href="Дизайн">Дизайн</a></li>
-                <li><a href="Маркетинг">Маркетинг</a></li>
-            </ul>
+        <div class="main-button">
+            <button class="button-link" type="button">Все</button>
+            <button class="button-link" type="button">Веб-сайт</button>
+            <button class="button-link" type="button">Приложения</button>
+            <button class="button-link" type="button">Дизайн</button>
+            <button class="button-link" type="button">Маркетинг</button>
         </div>
 
             <!-- Проекты -->
