@@ -87,3 +87,21 @@ span {
   background-color: var(--theme-color);
   color: #ffffff;
 }
+.images-projects {
+  width: 370px;
+  height: 294px;
+}
+.heading-projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+}
+.text-projects {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
+}

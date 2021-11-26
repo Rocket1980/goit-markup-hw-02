@@ -130,6 +130,7 @@ span {
 }
 .classes-image {
   width: 370px;
+  height: 294px;
 }
 
 /* ===== team ===== */
@@ -144,6 +145,7 @@ span {
 }
 .team-image {
   width: 270px;
+  height: 260px;
 }
 .team-heading {
   font-weight: 500;
