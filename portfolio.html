@@ -18,8 +18,8 @@
             <nav class="header-nav">
                 <a class="header-logo" href="WebStudio"><span>Web</span>Studio</a>
                 <ul class="header-nav-link">
-                    <li><a class="nav-link" href="Студия">Студия</a></li>
-                    <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+                    <li><a class="nav-link" href="./index.html">Студия</a></li>
+                    <li><a class="nav-link active-page" href="./portfolio.html">Портфолио</a></li>
                     <li><a class="nav-link" href="Контакты">Контакты</a></li>
                 </ul>
             </nav>
@@ -31,18 +31,32 @@
     </header>
        
     <!-- Портфолио -->
+    
     <main class="main">
-            <!-- Фильтр -->
-        <div class="main-button">
-            <button class="button-link" type="button">Все</button>
-            <button class="button-link" type="button">Веб-сайт</button>
-            <button class="button-link" type="button">Приложения</button>
-            <button class="button-link" type="button">Дизайн</button>
-            <button class="button-link" type="button">Маркетинг</button>
-        </div>
-
+    
             <!-- Проекты -->
         <section class="main-projects-box">
+            <!-- Фильтр -->
+            <div class="main-button">
+                <ul>
+                    <li>
+                        <button class="button-link" type="button">Все</button>
+                    </li>
+                    <li>
+                        <button class="button-link" type="button">Веб-сайт</button>
+                    </li>
+                    <li>
+                        <button class="button-link" type="button">Приложения</button>
+                    </li>
+                    <li>
+                        <button class="button-link" type="button">Дизайн</button>
+                    </li>
+                    <li>
+                        <button class="button-link" type="button">Маркетинг</button>
+                    </li>
+                </ul>
+            </div>
+            <div>
                 <ul class="list-projects-box">
                     <li class="list-projects">
                         <img class="images-projects" src="./images/portfolio1.jpg " alt="Картинка" width="370">
@@ -90,6 +104,7 @@
                         <p class="text-projects">Приложение</p>
                     </li>
                 </ul>
+            </div>
         </section>
 
     </main>
